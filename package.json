@@ -1,21 +1,64 @@
 {
-  "name": "vuse",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "beautiful-vue-use",
+  "version": "0.0.6",
+  "author": "yaxingson <3228891558@qq.com>",
+  "description": "a collection of beautiful vue composable utilities",
+  "keywords": [
+    "vue",
+    "composable",
+    "use"
+  ],
+  "packageManager": "pnpm@9.2.0",
+  "homepage": "https://github.com/yaxingson/beautiful-vue-use",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yaxingson/beautiful-vue-use.git"
   },
-  "keywords": [],
-  "author": "sgk",
-  "license": "ISC",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects":false,
+  "exports": {},
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "prepare": "husky",
+    "build": "node ./scripts/build.js",
+    "test": "vitest --run --dir lib --coverage",
+    "release":"",
+    "lint":""
+  },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/node": "^22.9.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitest/coverage-v8": "2.1.5",
+    "@vue/test-utils": "^2.4.6",
     "eslint": "^9.2.0",
     "husky": "^9.0.11",
+    "jsdom": "^25.0.1",
+    "lint-staged": "^15.2.10",
+    "markdownlint": "^0.36.1",
     "prettier": "^3.2.5",
-    "typescript": "^5.4.5"
+    "rollup": "^4.26.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.4.5",
+    "vitepress": "^1.5.0",
+    "vitest": "^2.1.5"
   },
   "dependencies": {
-    "vue": "^3.4.27"
-  }
+    "@beautiful-vue-use/animate": "workspace:*",
+    "@beautiful-vue-use/effect": "workspace:*",
+    "@beautiful-vue-use/lifecycle": "workspace:*",
+    "@beautiful-vue-use/sensors": "workspace:*",
+    "@beautiful-vue-use/state": "workspace:*",
+    "@beautiful-vue-use/ui": "workspace:*",
+    "vue": "^3.5.12"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,vue}": [
+      "eslint --fix"
+    ]
+  },
+  "license": "MIT"
 }

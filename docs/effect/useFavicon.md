@@ -1,0 +1,7 @@
+# useFavicon
+
+## Demo
+
+## Usage
+
+## API

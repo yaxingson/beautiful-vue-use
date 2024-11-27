@@ -1,0 +1,7 @@
+# useCopyToClipboard
+
+## Demo
+
+## Usage
+
+## API

@@ -1,0 +1,11 @@
+{
+	"compilerOptions":{
+		"moduleResolution":"node"
+    
+	},
+	"include":[
+		"./lib/**/*.ts",
+		"./docs/**/*.ts"
+
+	]
+}

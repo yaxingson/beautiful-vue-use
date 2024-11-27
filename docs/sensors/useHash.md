@@ -1,0 +1,7 @@
+# useHash
+
+## Demo
+
+## Usage
+
+## API
