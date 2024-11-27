@@ -1,5 +1,3 @@
-function useSessionStorage() {
-
-}
+function useSessionStorage() {}
 
 export default useSessionStorage

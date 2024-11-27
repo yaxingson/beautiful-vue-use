@@ -1,3 +1,3 @@
-function useDrop() { }
+function useDrop() {}
 
 export default useDrop

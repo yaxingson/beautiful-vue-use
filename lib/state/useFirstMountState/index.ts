@@ -1,6 +1,3 @@
-function useFirstMountState() {
-  
-
-}
+function useFirstMountState() {}
 
 export default useFirstMountState

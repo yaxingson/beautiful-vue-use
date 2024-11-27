@@ -1,8 +1,3 @@
-import { ref, onMounted } from 'vue'
-
-function useInterval(callback:()=>void, delay:number) {
-	
-
-}
+function useInterval() {}
 
 export default useInterval

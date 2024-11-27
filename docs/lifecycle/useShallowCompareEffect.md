@@ -1,0 +1,7 @@
+# useShallowCompareEffect
+
+## Demo
+
+## Usage
+
+## API

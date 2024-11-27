@@ -1,8 +1,3 @@
-import { ref } from 'vue'
-
-function useDefault<T>(defaultValue:T, initialValue:T) {
-  
-
-}
+function useDefault() {}
 
 export default useDefault

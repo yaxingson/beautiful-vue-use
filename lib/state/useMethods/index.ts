@@ -1,6 +1,3 @@
-function useMethods<T extends object>(createMethods:(state:T)=>object, initialState:T) {
-  
-
-}
+function useMethods() {}
 
 export default useMethods

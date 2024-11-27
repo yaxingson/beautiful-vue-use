@@ -1,7 +1,3 @@
-function useError() {
-  return function dispatchError(error:Error) {
-
-  }
-}
+function useError() {}
 
 export default useError

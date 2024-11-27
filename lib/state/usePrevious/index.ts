@@ -1,7 +1,3 @@
-import { Ref } from 'vue'
-
-function usePrevious<T>(state:Ref<T>) {
-
-}
+function usePrevious() {}
 
 export default usePrevious

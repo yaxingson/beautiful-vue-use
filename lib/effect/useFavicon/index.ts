@@ -1,5 +1,3 @@
-function useFavicon(url:string) {
-
-}
+function useFavicon() {}
 
 export default useFavicon

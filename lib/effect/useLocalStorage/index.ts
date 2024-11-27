@@ -1,5 +1,3 @@
-function useLocalStorage(key:string, initialValue:string, options:object) {
-
-}
+function useLocalStorage() {}
 
 export default useLocalStorage

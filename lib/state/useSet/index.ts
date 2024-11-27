@@ -1,12 +1,3 @@
-function useSet() {
-  const actions = {
-    add() {}, 
-    has() {}, 
-    remove() {}, 
-    toggle() {}, 
-    reset() {}, 
-    clear() {}
-  }
-}
+function useSet() {}
 
 export default useSet

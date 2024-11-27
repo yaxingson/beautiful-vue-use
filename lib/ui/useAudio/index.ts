@@ -1,5 +1,3 @@
-function useAudio(options:object) {
-
-}
+function useAudio() {}
 
 export default useAudio

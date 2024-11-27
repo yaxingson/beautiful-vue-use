@@ -1,9 +1,3 @@
-function useCopyToClipboard() {
-  const copyToClipboard = ()=>{
-
-  }
-
-  return [ copyToClipboard ] as const
-}
+function useCopyToClipboard() {}
 
 export default useCopyToClipboard

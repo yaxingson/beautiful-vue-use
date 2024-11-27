@@ -1,5 +1,3 @@
-function useGeolocation() {
-
-}
+function useGeolocation() {}
 
 export default useGeolocation

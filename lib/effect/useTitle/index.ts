@@ -1,5 +1,3 @@
-function useTitle(title:string) {
-
-}
+function useTitle() {}
 
 export default useTitle

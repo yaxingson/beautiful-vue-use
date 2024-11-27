@@ -1,3 +1,3 @@
-function useDropArea() { }
+function useDropArea() {}
 
 export default useDropArea

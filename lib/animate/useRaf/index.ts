@@ -1,3 +1,3 @@
-function useRaf(ms?:number, delay?:number) {}
+function useRaf() {}
 
 export default useRaf

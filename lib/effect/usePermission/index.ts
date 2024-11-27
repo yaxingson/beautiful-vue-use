@@ -1,5 +1,3 @@
-function usePermission(options:object) {
-
-}
+function usePermission() {}
 
 export default usePermission

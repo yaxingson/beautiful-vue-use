@@ -1,11 +1,3 @@
-function useMap() {
-  const actions = {
-    set() {}, 
-    setAll() {}, 
-    remove() {}, 
-    reset() {}
-  }
-
-}
+function useMap() {}
 
 export default useMap

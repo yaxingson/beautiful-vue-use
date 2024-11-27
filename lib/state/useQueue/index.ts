@@ -1,11 +1,3 @@
-function useQueue() {
-  return {
-    add() {}, 
-    remove() {}, 
-    get first() { return }, 
-    get last() { return }, 
-    get size() { return }
-  }
-}
+function useQueue() {}
 
 export default useQueue

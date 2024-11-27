@@ -1,5 +1,3 @@
-function useMultiStateValidator() {
-
-}
+function useMultiStateValidator() {}
 
 export default useMultiStateValidator

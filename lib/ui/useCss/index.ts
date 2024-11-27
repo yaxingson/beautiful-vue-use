@@ -1,5 +1,3 @@
-function useCss() {
-
-}
+function useCss() {}
 
 export default useCss

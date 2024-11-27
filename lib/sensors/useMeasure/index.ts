@@ -1,5 +1,3 @@
-function useMeasure() {
-
-}
+function useMeasure() {}
 
 export default useMeasure
