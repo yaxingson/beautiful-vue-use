@@ -10,7 +10,7 @@
 .env.test.local
 .env.production.local
 .env.local
-.vitepress
+.vitepress/cache
 coverage
 build/Release
 node_modules/

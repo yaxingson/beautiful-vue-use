@@ -59,6 +59,7 @@
     "@beautiful-vue-use/sensors": "workspace:*",
     "@beautiful-vue-use/state": "workspace:*",
     "@beautiful-vue-use/ui": "workspace:*",
+    "@beautiful-vue-use/miscellaneous":"workspace:*",
     "vue": "^3.5.12"
   },
   "lint-staged": {
