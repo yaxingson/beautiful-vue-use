@@ -5,11 +5,15 @@ export default defineConfig({
   test:{
     globals:true,
     environment:'jsdom',
-    include:['./lib/**/*.spec.ts'],
+    include:['lib/**/*.spec.ts'],
+    alias:{
+
+    },
     coverage:{
       provider:'v8',
-      include:['lib/*'],
-      exclude:['lib/**/*.spec.ts', 'lib/**/dist/*']
+      include:['lib/**/*'],
+      exclude:['lib/**/*.spec.ts', 'lib/**/dist/*'],
+      reportOnFailure:true
     }
   },
   resolve:{

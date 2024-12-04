@@ -1,11 +1,11 @@
 import { readdirSync, statSync } from 'node:fs'
 import { resolve } from 'node:path'
+import { defineConfig} from 'vitepress'
 import viteConfig from './vite.config'
 
 const Guide = [
   { text: 'Get Started', link: '/guide/' },
-  { text: 'Contributing', link: '/contributing' },
-  { text: 'Guidelines', link: '/guidelines' },
+
 ]
 
 const Links = [
@@ -16,8 +16,8 @@ const Links = [
 ]
 
 const Learn = [
-  { text: 'Premium Video Course', link: 'https://vueschool.io/courses/vueuse-for-everyone?friend=vueuse' },
-  { text: 'Official Vue Certification', link: 'https://certification.vuejs.org/?utm_source=vueuse&utm_medium=website&utm_campaign=affiliate&utm_content=guide&banner_type=text&friend=VUEUSE' },
+  { text: 'Vue', link: 'https://vuejs.org' },
+
 ]
 
 const FunctionsSideBar = readdirSync(resolve(__dirname, '../../lib')).map(path=>{
@@ -41,7 +41,7 @@ const DefaultSideBar = [
   { text: 'Links', items: Links },
 ]
 
-export default {
+export default defineConfig({
   title: 'beautiful-vue-use',
   description: 'Collection of essential Vue Composition Utilities',
   lang: 'en-US',
@@ -49,8 +49,8 @@ export default {
 
   markdown: {
     theme: {
-      light: 'vitesse-light',
-      dark: 'vitesse-dark',
+      light: 'github-light',
+      dark: 'github-dark',
     },
     codeTransformers: [
 
@@ -68,9 +68,9 @@ export default {
       copyright: 'Copyright © 2020-PRESENT Yaxing Son and Beautiful-vue-use contributors',
     },
     algolia: {
-      appId: 'NBQWY48OOR',
-      apiKey: 'c5fd82eb1100c2110c1690e0756d8ba5',
-      indexName: 'vueuse',
+      appId: '',
+      apiKey: '',
+      indexName: 'beautiful-vue-use',
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vueuse/vueuse' },
@@ -88,14 +88,15 @@ export default {
         ],
       },
       {
-        text: 'Functions',
+        text: 'Categories',
         items: [
-          { text:'Animate', link:'/' },
-          { text: 'Effect', link:'/' },
-          { text: 'Lifecycle', link:'/' },
-          { text: 'State', link:'/' },
-          { text: 'Ui', link:'/' },
-          { text: 'Sensors', link:'/' },
+          { text:'Animate', link:'/animate' },
+          { text: 'Effect', link:'/effect' },
+          { text: 'Lifecycle', link:'/lifecycle' },
+          { text: 'State', link:'/state' },
+          { text: 'Ui', link:'/ui' },
+          { text: 'Sensors', link:'/sensors' },
+          { text: 'Miscellaneous', link:'/miscellaneous'}
         ],
       },
       {
@@ -125,6 +126,7 @@ export default {
       '/ecosystem': DefaultSideBar,
       '/guidelines': DefaultSideBar,
       '/export-size': DefaultSideBar,
+      '/functions':FunctionsSideBar,
       '/animate':FunctionsSideBar,
       '/effect':FunctionsSideBar,
       '/lifecycle':FunctionsSideBar,
@@ -154,4 +156,4 @@ export default {
   ],
 
   vite: viteConfig
-}
+})

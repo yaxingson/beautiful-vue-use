@@ -1,6 +1,8 @@
 ---
 sidebar: true
 
-
 ---
 
+# Functions
+
+<FunctionList />

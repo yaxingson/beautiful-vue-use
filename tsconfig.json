@@ -1,7 +1,8 @@
 {
 	"compilerOptions":{
-		"moduleResolution":"node"
-    
+    "module":"esnext",
+		"moduleResolution":"node",
+    "types":["vitest/globals", "vite/types/importMeta", "./types"]
 	},
 	"include":[
 		"./lib/**/*.ts",

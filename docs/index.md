@@ -8,7 +8,7 @@ hero:
   tagline: A high-quality Vue Composition Utilities library
   image:
     src: /favicon.svg
-    alt: VueUse
+    alt: BeautifulVueUse
   actions:
     - theme: brand
       text: Get Started
@@ -18,7 +18,7 @@ hero:
       link: /functions
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vueuse/vueuse
+      link: https://github.com/yaxingson/beautiful-vue-use
 
 features:
   - title: Feature Rich

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preview</title>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script type="module">
+    import { createApp, h } from 'vue'
+    import { createRouter, createWebHistory, RouterView } from 'vue-router'
+
+    const App = {
+      setup() {
+        return ()=>h(RouterView)
+      }
+    }
+
+    const routes = Object.entries(import.meta.glob('./lib/**/Demo.vue'))
+      .map(item=>({ path:`/${item[0].split('/')[3]}`, component:item[1] }))
+
+    const router = createRouter({
+      history:createWebHistory(),
+      routes
+    })
+
+    createApp(App).use(router).mount('#app')
+
+  </script>
+</body>
+</html>
