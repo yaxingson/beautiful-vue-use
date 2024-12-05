@@ -1,0 +1,1 @@
+import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as t,d as n,b as o,o as s}from"./index-drTP8NVz.js";const l={};function a(c,e){return s(),t("div",null,e[0]||(e[0]=[n("Idle delay ms: "),o("input",{type:"number",value:"3000"},null,-1),o("div",null,"User is idle: No",-1)]))}const m=r(l,[["render",a]]);export{m as default};

@@ -1,4 +1,7 @@
 import {
+  compile
+} from "./chunk-D7EBI657.js";
+import {
   BaseTransition,
   BaseTransitionPropsValidators,
   Comment,
@@ -25,7 +28,6 @@ import {
   capitalize,
   cloneVNode,
   compatUtils,
-  compile,
   computed,
   createApp,
   createBaseVNode,
@@ -168,7 +170,8 @@ import {
   withMemo,
   withModifiers,
   withScopeId
-} from "./chunk-PTV4W2Y5.js";
+} from "./chunk-RFUFMVSD.js";
+import "./chunk-7AJPX2AP.js";
 export {
   BaseTransition,
   BaseTransitionPropsValidators,

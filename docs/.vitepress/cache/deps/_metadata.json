@@ -1,43 +1,55 @@
 {
-  "hash": "352eb648",
+  "hash": "36529cb8",
   "configHash": "3ce75075",
-  "lockfileHash": "fa6c0269",
-  "browserHash": "96f33e3d",
+  "lockfileHash": "313dce29",
+  "browserHash": "3d107f58",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.5.12_typescript@5.4.5/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "396efaf3",
+      "fileHash": "570ac134",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.6.4/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "24192671",
+      "fileHash": "0db68d76",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@11.2.0_vue@3.5.12_typescript@5.4.5_/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "531bf030",
+      "fileHash": "e024de4a",
       "needsInterop": false
     },
-    "vue/dist/vue.esm-browser.js": {
-      "src": "../../../../node_modules/.pnpm/vue@3.5.12_typescript@5.4.5/node_modules/vue/dist/vue.esm-browser.js",
-      "file": "vue_dist_vue__esm-browser__js.js",
-      "fileHash": "2fe69137",
+    "vue/dist/vue.esm-bundler": {
+      "src": "../../../../node_modules/.pnpm/vue@3.5.12_typescript@5.4.5/node_modules/vue/dist/vue.esm-bundler.js",
+      "file": "vue_dist_vue__esm-bundler.js",
+      "fileHash": "f013ee10",
       "needsInterop": false
     },
-    "vue/server-renderer": {
-      "src": "../../../../node_modules/.pnpm/vue@3.5.12_typescript@5.4.5/node_modules/vue/server-renderer/index.mjs",
-      "file": "vue_server-renderer.js",
-      "fileHash": "878a1bb1",
+    "vue3-sfc-loader": {
+      "src": "../../../../node_modules/.pnpm/vue3-sfc-loader@0.9.5_vue@3.5.12_typescript@5.4.5_/node_modules/vue3-sfc-loader/dist/vue3-sfc-loader.esm.js",
+      "file": "vue3-sfc-loader.js",
+      "fileHash": "1febffcf",
+      "needsInterop": false
+    },
+    "@vue/compiler-sfc": {
+      "src": "../../../../node_modules/.pnpm/@vue+compiler-sfc@3.5.13/node_modules/@vue/compiler-sfc/dist/compiler-sfc.esm-browser.js",
+      "file": "@vue_compiler-sfc.js",
+      "fileHash": "ba5bf9b2",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-PTV4W2Y5": {
-      "file": "chunk-PTV4W2Y5.js"
+    "chunk-D7EBI657": {
+      "file": "chunk-D7EBI657.js"
+    },
+    "chunk-RFUFMVSD": {
+      "file": "chunk-RFUFMVSD.js"
+    },
+    "chunk-7AJPX2AP": {
+      "file": "chunk-7AJPX2AP.js"
     }
   }
 }

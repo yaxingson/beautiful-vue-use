@@ -4,6 +4,8 @@ Returns the default value when state is null or undefined.
 
 ## Demo
 
+<Demo />
+
 ## Usage
 
 ```vue

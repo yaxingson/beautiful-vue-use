@@ -1,0 +1,1 @@
+import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as e,o}from"./index-drTP8NVz.js";const c={};function s(t,n){return o(),e("div",null,"Browser's scrollbar width is 17px")}const l=r(c,[["render",s]]);export{l as default};

@@ -4,6 +4,8 @@ Tracks value of a boolean.
 
 ## Demo
 
+<Demo />
+
 ## Usage
 
 ```vue

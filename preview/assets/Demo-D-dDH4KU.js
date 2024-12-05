@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as c}from"./index-drTP8NVz.js";const t={};function r(n,s){return c(),o("button",null,"Clicked: 1")}const f=e(t,[["render",r]]);export{f as default};

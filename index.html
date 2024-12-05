@@ -10,7 +10,7 @@
 
   <script type="module">
     import { createApp, h } from 'vue'
-    import { createRouter, createWebHistory, RouterView } from 'vue-router'
+    import { createRouter, createWebHashHistory, RouterView } from 'vue-router'
 
     const App = {
       setup() {
@@ -22,7 +22,7 @@
       .map(item=>({ path:`/${item[0].split('/')[3]}`, component:item[1] }))
 
     const router = createRouter({
-      history:createWebHistory(),
+      history:createWebHashHistory(),
       routes
     })
 

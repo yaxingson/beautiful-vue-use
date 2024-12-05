@@ -1,0 +1,1 @@
+import{_ as l}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,b as e,o as r}from"./index-drTP8NVz.js";const t={};function a(i,n){return r(),o("div",null,n[0]||(n[0]=[e("div",null,"Below field is valid only if number is even",-1),e("input",{type:"number",min:"0",max:"10",value:"0"},null,-1),e("span",null,"Valid!",-1)]))}const u=l(t,[["render",a]]);export{u as default};

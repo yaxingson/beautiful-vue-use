@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as l,b as e,o as n}from"./index-drTP8NVz.js";const r={};function u(a,o){return n(),l("div",null,o[0]||(o[0]=[e("p",null,"Value: ",-1),e("button",null,"Update Cookie",-1),e("br",null,null,-1),e("button",null,"Delete Cookie",-1)]))}const f=t(r,[["render",u]]);export{f as default};

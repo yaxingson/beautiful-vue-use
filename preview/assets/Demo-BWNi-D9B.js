@@ -1,0 +1,1 @@
+import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,b as e,o as t}from"./index-drTP8NVz.js";const l={};function s(c,n){return t(),o("div",null,n[0]||(n[0]=[e("span",null,"Renders count: 1",-1),e("br",null,null,-1),e("button",null,"re-render",-1)]))}const d=r(l,[["render",s]]);export{d as default};

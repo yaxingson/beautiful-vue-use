@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as n,b as t,o as r}from"./index-drTP8NVz.js";const a={};function l(s,e){return r(),n("div",null,e[0]||(e[0]=[t("div",null,"You will not be able to enter more than one space",-1),t("input",{type:"text",min:"0",max:"10",value:""},null,-1)]))}const i=o(a,[["render",l]]);export{i as default};

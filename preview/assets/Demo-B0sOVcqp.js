@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as r,d as o,b as s,o as n}from"./index-drTP8NVz.js";const c={},a={style:{"text-align":"center"}};function l(_,e){return n(),r("div",a,e[0]||(e[0]=[o("Try pressing numbers"),s("br",null,null,-1)]))}const m=t(c,[["render",l]]);export{m as default};

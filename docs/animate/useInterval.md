@@ -6,6 +6,7 @@ category: Animate
 
 ## Demo
 
+<Demo />
 
 ## Usage
 

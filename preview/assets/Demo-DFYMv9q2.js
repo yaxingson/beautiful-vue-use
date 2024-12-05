@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as r}from"./index-drTP8NVz.js";const t={};function c(n,s){return r(),o("button",null,"useLongPress")}const f=e(t,[["render",c]]);export{f as default};

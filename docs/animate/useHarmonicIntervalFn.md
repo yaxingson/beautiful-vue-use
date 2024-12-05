@@ -8,6 +8,7 @@ Same as [useInterval](./useInterval.md) hook, but triggers all effects with the 
 
 ## Demo
 
+<Demo />
 
 ## Usage
 

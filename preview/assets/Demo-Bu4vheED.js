@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c,o}from"./index-drTP8NVz.js";const s={},t={class:"react-use-css-1"};function r(n,_){return o(),c("div",t,"hello")}const l=e(s,[["render",r]]);export{l as default};

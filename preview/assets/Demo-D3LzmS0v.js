@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as c}from"./index-drTP8NVz.js";const r={};function t(n,a){return c(),o("h3",null,"delta Y Scrolled: 36")}const _=e(r,[["render",t]]);export{_ as default};

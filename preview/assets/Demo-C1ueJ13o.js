@@ -1,0 +1,1 @@
+import{_ as n}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as t,b as e,o as l}from"./index-drTP8NVz.js";const r={};function c(s,o){return l(),t("div",null,o[0]||(o[0]=[e("pre",null,"{}",-1),e("button",null,"hello",-1),e("button",null,"foo",-1),e("button",null,"increment",-1)]))}const f=n(r,[["render",c]]);export{f as default};

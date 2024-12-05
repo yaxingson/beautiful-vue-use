@@ -1,0 +1,1 @@
+import{_ as t}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as r,b as o,o as n}from"./index-drTP8NVz.js";const s={},c={id:"root"};function a(d,e){return n(),r("div",c,e[0]||(e[0]=[o("div",null,"Time: 1733284046910",-1),o("button",null,"Update",-1)]))}const l=t(s,[["render",a]]);export{l as default};

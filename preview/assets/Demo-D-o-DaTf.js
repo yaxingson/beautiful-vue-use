@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as e,o as t}from"./index-drTP8NVz.js";const c={};function r(n,s){return t(),e("button",null,"Click me to throw")}const m=o(c,[["render",r]]);export{m as default};

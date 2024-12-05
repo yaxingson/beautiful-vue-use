@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import Demo from './components/Demo'
+import Demo from './components/Demo.vue'
 import FunctionList from './components/FunctionList.vue'
 
 export default {

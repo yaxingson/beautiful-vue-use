@@ -1,0 +1,1 @@
+import{e as n,o as t,c as o,b as e}from"./index-drTP8NVz.js";const u=n({__name:"Demo",setup(s){return(a,l)=>(t(),o("div",null,l[0]||(l[0]=[e("div",null,"User: Marshall",-1),e("input",null,null,-1),e("button",null,"set to null",-1)])))}});export{u as default};

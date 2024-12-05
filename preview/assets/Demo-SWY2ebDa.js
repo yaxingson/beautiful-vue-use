@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as t,b as r,o as n}from"./index-drTP8NVz.js";const s={};function a(c,e){return n(),t("div",null,e[0]||(e[0]=[r("button",null,"Vibrate",-1)]))}const m=o(s,[["render",a]]);export{m as default};

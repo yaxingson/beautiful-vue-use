@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as n,b as e,o as r}from"./index-drTP8NVz.js";const c={};function s(a,t){return r(),n("div",null,t[0]||(t[0]=[e("input",{value:""},null,-1),e("button",{type:"button"},"copy text",-1)]))}const p=o(c,[["render",s]]);export{p as default};

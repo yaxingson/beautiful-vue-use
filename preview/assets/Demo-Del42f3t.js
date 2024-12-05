@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as n,b as e,d as l,o as r}from"./index-drTP8NVz.js";const a={};function s(c,t){return r(),n("div",null,t[0]||(t[0]=[e("div",null,[l("delay: "),e("input",{value:"1000"})],-1),e("h1",null,"count: 9",-1),e("div",null,[e("button",null,"stop")],-1)]))}const i=o(a,[["render",s]]);export{i as default};

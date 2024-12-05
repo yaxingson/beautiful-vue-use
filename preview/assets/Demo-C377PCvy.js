@@ -1,0 +1,1 @@
+import{_ as r}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as n,b as e,o as l}from"./index-drTP8NVz.js";const o={};function s(a,t){return l(),n("div",null,t[0]||(t[0]=[e("div",null,"RAF triggered: 540 (times)",-1),e("div",null,"Last high res timestamp: 591468.815",-1),e("br",null,null,-1),e("button",null,"STOP",-1)]))}const m=r(o,[["render",s]]);export{m as default};

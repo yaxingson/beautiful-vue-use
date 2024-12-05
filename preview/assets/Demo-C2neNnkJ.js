@@ -1,0 +1,3 @@
+import{_ as i}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c as t,a as o,o as r}from"./index-drTP8NVz.js";const a={};function n(l,e){return r(),t("div",null,e[0]||(e[0]=[o(`<div style="width:300px;height:200px;margin:50px auto;border:1px dotted rgb(0, 0, 0);text-align:center;line-height:200px;">Drop anywhere on page</div><div style="max-width:300px;margin:0px auto;"><ul style="margin:0px;padding:10px 18px;"><li>See logs in <code>Actions</code> tab.</li><li>Drag in and drop files.</li><li><code>Cmd + V</code> paste text here.</li><li>Drag in images from other tabs.</li><li>Drag in link from navigation bar.</li><li>Below is state returned by the hook:</li></ul><pre>{
+    &quot;over&quot;: false
+}</pre></div>`,2)]))}const s=i(a,[["render",n]]);export{s as default};
