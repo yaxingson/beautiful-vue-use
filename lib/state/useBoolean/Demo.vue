@@ -16,6 +16,12 @@ import useBoolean from '.'
 </template>
 
 <style scoped>
+button {
+  outline:none;
+}
 
-
+div {
+  background:pink;
+}
+  
 </style>
