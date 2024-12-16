@@ -46,26 +46,26 @@ import { defineConfig } from 'vite'
 import AutoImport from 'unplugin-auto-import/vite'
 
 export default defineConfig({
-	plugins:[
-		AutoImport({
-			include:[/\.vue$/],
-			imports:[
-				"beautiful-vue-use",
-				{
-					'@beautiful-vue-use/animate':[
-						'useInterval',
-						['useTimeout', 'useDelay']
-					]
-				},
-				{
-					from:'@beautiful-vue-use/effect',
-					imports:[''],
-					type:true
-				}
-			]
-			// ...
-		})
-	]
+  plugins:[
+    AutoImport({
+      include:[/\.vue$/],
+      imports:[
+        "beautiful-vue-use",
+      {
+        '@beautiful-vue-use/animate':[
+          'useInterval',
+          ['useTimeout', 'useDelay']
+        ]
+      },
+      {
+        from:'@beautiful-vue-use/effect',
+        imports:[''],
+        type:true
+      }
+      ]
+      // ...
+    })
+  ]
 })
 
 ```
